@@ -31,13 +31,15 @@
         <Button Click="Button_Click" Name="OkejButton7" Grid.Row="1" Grid.Column="0" Content="7" FontSize="75" Margin="8" FontFamily="gerogia"/>
         <Button Click="Button_Click" Name="OkejButton8" Grid.Row="2" Grid.Column="0" Content="4" FontSize="75" Margin="8" FontFamily="gerogia"/>
         <Button Click="Button_Click" Name="OkejButton9" Grid.Row="3" Grid.Column="0" Content="1" FontSize="75" Margin="8" FontFamily="gerogia"/>
-        <Button Click="Button_Click" Name="OkejButton0" Grid.Row="4" Grid.Column="0" Content="0" FontSize="75" Margin="8" Grid.ColumnSpan="2" FontFamily="gerogia"/>
-        <Button Click="Button_Click_Equals" Name="OkejButtonequals" Grid.Row="5" Grid.Column="0" Content="=" FontSize="75" Margin="8" Grid.ColumnSpan="4" Background="DarkGreen" FontFamily="gerogia"/>
+        <Button Click="Button_Click" Name="OkejButton0" Grid.Row="4" Grid.Column="0" Content="0" FontSize="75" Margin="8" FontFamily="gerogia"/>
+        <Button Click="Button_Click_Equals" Name="OkejButtonequals" Grid.Row="5" Grid.Column="0" Content="=" FontSize="75" Margin="8" Grid.ColumnSpan="3" Background="DarkGreen" FontFamily="gerogia"/>
         <Button Click="Button_Click" Name="OkejButtondivide" Grid.Row="4" Grid.Column="2" Content="/" FontSize="75" Margin="8" FontFamily="gerogia"/>
         <Button Click="Button_Click" Name="OkejButtonminus" Grid.Row="2" Grid.Column="3" Content="-" FontSize="75" Margin="8" FontFamily="gerogia"/>
         <Button Click="Button_Click" Name="OkejButtonplus" Grid.Row="3" Grid.Column="3" Content="+" FontSize="75" Margin="8" FontFamily="gerogia"/>
         <Button Click="Button_Click" Name="OkejButtonC" Grid.Row="0" Grid.Column="0" Content="C" FontSize="75" Margin="8" Background="Red" FontFamily="gerogia"/>
         <Button Click="Button_Click" Name="OkejButtonmulti" Grid.Row="1" Grid.Column="3" Content="*" FontSize="75" Margin="8" FontFamily="gerogia"/>
         <Button Click="Button_Click" Name="OkejButtonpercent" Grid.Row="4" Grid.Column="3" Content="%" FontSize="75" Margin="8"  FontFamily="digital-7"/>
+        <Button Click="Button_Click" Name="OkejButtonsquareroot" Grid.Row="4" Grid.Column="1" Content="√" FontSize="75" Margin="8" FontFamily="gerogia"/>
+        <Button Click="Button_Click" Name="OkejButtonpi" Grid.Row="5" Grid.Column="3" Content="π" FontSize="75" Margin="8" FontFamily="gerogia"/>
     </Grid>
 </Window>

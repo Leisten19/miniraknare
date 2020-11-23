@@ -31,10 +31,12 @@ namespace Calculator
                 switch (button.Content)
                 {
                     case "+":
+                    case "√":
                     case "*":
                     case "/":
                     case "-":
                     case "%":
+                    case "π":
                         if (MyTextBlock.Text.Contains("+") || MyTextBlock.Text.Contains("-") || MyTextBlock.Text.Contains("*") || MyTextBlock.Text.Contains("/"))
                         {
                             break;
@@ -101,6 +103,20 @@ namespace Calculator
                 var tal1 = Convert.ToDouble(MyTextBlock.Text.Split('%')[0]);
 
                 var summa = tal1 / 100;
+                MyTextBlock.Text = summa + "";
+            }
+            else if (MyTextBlock.Text.Contains('√'))
+            {
+                var tal1 = Convert.ToDouble(MyTextBlock.Text.Split('√')[0]);
+
+                var summa = (Math.Sqrt(tal1));
+                MyTextBlock.Text = summa + "";
+            }
+            else if (MyTextBlock.Text.Contains('π'))
+            {
+                var tal1 = Convert.ToDouble(MyTextBlock.Text.Split('π')[0]);
+
+                var summa = (tal1 + Math.PI);
                 MyTextBlock.Text = summa + "";
             }
         }
