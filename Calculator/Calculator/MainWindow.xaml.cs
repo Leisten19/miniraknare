@@ -38,7 +38,7 @@ namespace Calculator
                     case "%":
                     case "π":
                     case ".":
-                        if (MyTextBlock.Text.Contains("+") || MyTextBlock.Text.Contains("-") || MyTextBlock.Text.Contains("*") || MyTextBlock.Text.Contains("/"))
+                        if (MyTextBlock.Text.Contains("+") || MyTextBlock.Text.Contains("-") || MyTextBlock.Text.Contains("*") || MyTextBlock.Text.Contains("%") || MyTextBlock.Text.Contains("√") || MyTextBlock.Text.Contains("π") || MyTextBlock.Text.Contains(".") || MyTextBlock.Text.Contains("/"))
                         {
                             break;
                         }
@@ -104,7 +104,7 @@ namespace Calculator
                 var tal1 = Convert.ToDouble(MyTextBlock.Text.Split('%')[0]);
 
                 var summa = tal1 / 100;
-                MyTextBlock.Text = summa + "";
+                MyTextBlock.Text = summa + "%";
             }
             else if (MyTextBlock.Text.Contains('√'))
             {
