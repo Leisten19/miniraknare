@@ -16,3 +16,4 @@ C:\Users\david.leisten\Documents\GitHub\miniraknare\Calculator\Calculator\obj\De
 C:\Users\david.leisten\Documents\GitHub\miniraknare\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.dll
 C:\Users\david.leisten\Documents\GitHub\miniraknare\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.pdb
 C:\Users\david.leisten\Documents\GitHub\miniraknare\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.genruntimeconfig.cache
+C:\Users\david.leisten\Documents\GitHub\miniraknare\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.csprojAssemblyReference.cache

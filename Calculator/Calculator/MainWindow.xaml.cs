@@ -37,6 +37,7 @@ namespace Calculator
                     case "-":
                     case "%":
                     case "π":
+                    case ".":
                         if (MyTextBlock.Text.Contains("+") || MyTextBlock.Text.Contains("-") || MyTextBlock.Text.Contains("*") || MyTextBlock.Text.Contains("/"))
                         {
                             break;
@@ -116,8 +117,16 @@ namespace Calculator
             {
                 var tal1 = Convert.ToDouble(MyTextBlock.Text.Split('π')[0]);
 
-                var summa = (tal1 + Math.PI);
+                var summa = (tal1 * Math.PI);
                 MyTextBlock.Text = summa + "";
+            }
+            else if (MyTextBlock.Text.Contains('.'))
+            {
+                var tal1 = Convert.ToDouble(MyTextBlock.Text.Split('.')[0]);
+                var tal2 = Convert.ToDouble(MyTextBlock.Text.Split('-')[1]);
+
+                var summa = (tal1 + "." + tal2);
+                MyTextBlock.Text = summa;
             }
         }
     }
